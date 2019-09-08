@@ -1,0 +1,772 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		117BFB09232577E900BE7750 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117BFB08232577E900BE7750 /* AppDelegate.swift */; };
+		117BFB11232577E900BE7750 /* FineWeedMe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 117BFB0F232577E900BE7750 /* FineWeedMe.xcdatamodeld */; };
+		117BFB13232577EA00BE7750 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 117BFB12232577EA00BE7750 /* Assets.xcassets */; };
+		117BFB16232577EA00BE7750 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 117BFB14232577EA00BE7750 /* LaunchScreen.storyboard */; };
+		117BFB21232577EA00BE7750 /* FineWeedMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117BFB20232577EA00BE7750 /* FineWeedMeTests.swift */; };
+		117BFB2C232577EA00BE7750 /* FineWeedMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117BFB2B232577EA00BE7750 /* FineWeedMeUITests.swift */; };
+		117BFB452325781500BE7750 /* ForgotPasswordViewController+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117BFB392325781300BE7750 /* ForgotPasswordViewController+UI.swift */; };
+		117BFB462325781500BE7750 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117BFB3A2325781300BE7750 /* SignInViewController.swift */; };
+		117BFB472325781500BE7750 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117BFB3B2325781300BE7750 /* ViewController.swift */; };
+		117BFB482325781500BE7750 /* SignUpViewController+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117BFB3C2325781400BE7750 /* SignUpViewController+UI.swift */; };
+		117BFB492325781500BE7750 /* Welcome.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 117BFB3D2325781400BE7750 /* Welcome.storyboard */; };
+		117BFB4A2325781500BE7750 /* SignInViewController+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117BFB3E2325781400BE7750 /* SignInViewController+UI.swift */; };
+		117BFB4B2325781500BE7750 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117BFB3F2325781400BE7750 /* TestViewController.swift */; };
+		117BFB4C2325781500BE7750 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117BFB402325781400BE7750 /* ForgotPasswordViewController.swift */; };
+		117BFB4E2325781500BE7750 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117BFB422325781400BE7750 /* SignUpViewController.swift */; };
+		117BFB4F2325781500BE7750 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 117BFB432325781500BE7750 /* LaunchScreen.storyboard */; };
+		117BFB52232580C900BE7750 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 117BFB51232580C900BE7750 /* GoogleService-Info.plist */; };
+		21C17E5B90C00311F18F698B /* Pods_FineWeedMeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 245DC86AA0A2C69EC91345CD /* Pods_FineWeedMeTests.framework */; };
+		7A6F5E277AD20CBC689AD165 /* Pods_FineWeedMe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ADD3EC7EFF033EE362B0A86 /* Pods_FineWeedMe.framework */; };
+		EE25505217843652C25404F7 /* Pods_FineWeedMeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BFC4ADF3B007E5405F27F2D /* Pods_FineWeedMeUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		117BFB1D232577EA00BE7750 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 117BFAFD232577E900BE7750 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 117BFB04232577E900BE7750;
+			remoteInfo = FineWeedMe;
+		};
+		117BFB28232577EA00BE7750 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 117BFAFD232577E900BE7750 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 117BFB04232577E900BE7750;
+			remoteInfo = FineWeedMe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		117BFB05232577E900BE7750 /* FineWeedMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FineWeedMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		117BFB08232577E900BE7750 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		117BFB10232577E900BE7750 /* FineWeedMe.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FineWeedMe.xcdatamodel; sourceTree = "<group>"; };
+		117BFB12232577EA00BE7750 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		117BFB15232577EA00BE7750 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		117BFB17232577EA00BE7750 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		117BFB1C232577EA00BE7750 /* FineWeedMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FineWeedMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		117BFB20232577EA00BE7750 /* FineWeedMeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FineWeedMeTests.swift; sourceTree = "<group>"; };
+		117BFB22232577EA00BE7750 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		117BFB27232577EA00BE7750 /* FineWeedMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FineWeedMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		117BFB2B232577EA00BE7750 /* FineWeedMeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FineWeedMeUITests.swift; sourceTree = "<group>"; };
+		117BFB2D232577EA00BE7750 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		117BFB392325781300BE7750 /* ForgotPasswordViewController+UI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ForgotPasswordViewController+UI.swift"; sourceTree = "<group>"; };
+		117BFB3A2325781300BE7750 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		117BFB3B2325781300BE7750 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "../../../../Library/Autosave Information/DatingApp/DatingApp/ViewController.swift"; sourceTree = "<group>"; };
+		117BFB3C2325781400BE7750 /* SignUpViewController+UI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SignUpViewController+UI.swift"; sourceTree = "<group>"; };
+		117BFB3D2325781400BE7750 /* Welcome.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Welcome.storyboard; sourceTree = "<group>"; };
+		117BFB3E2325781400BE7750 /* SignInViewController+UI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SignInViewController+UI.swift"; sourceTree = "<group>"; };
+		117BFB3F2325781400BE7750 /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		117BFB402325781400BE7750 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		117BFB422325781400BE7750 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		117BFB432325781500BE7750 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		117BFB51232580C900BE7750 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1ADD3EC7EFF033EE362B0A86 /* Pods_FineWeedMe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FineWeedMe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		245DC86AA0A2C69EC91345CD /* Pods_FineWeedMeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FineWeedMeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F03E361598B058B8DFE3DD9 /* Pods-FineWeedMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FineWeedMe.release.xcconfig"; path = "Target Support Files/Pods-FineWeedMe/Pods-FineWeedMe.release.xcconfig"; sourceTree = "<group>"; };
+		5091C5AD704B48456448BAB7 /* Pods-FineWeedMeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FineWeedMeUITests.debug.xcconfig"; path = "Target Support Files/Pods-FineWeedMeUITests/Pods-FineWeedMeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6E26620FBA3E5C1FBFF89FEE /* Pods-FineWeedMeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FineWeedMeTests.debug.xcconfig"; path = "Target Support Files/Pods-FineWeedMeTests/Pods-FineWeedMeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		97BCCC31AC47755B71C6026B /* Pods-FineWeedMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FineWeedMe.debug.xcconfig"; path = "Target Support Files/Pods-FineWeedMe/Pods-FineWeedMe.debug.xcconfig"; sourceTree = "<group>"; };
+		9BFC4ADF3B007E5405F27F2D /* Pods_FineWeedMeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FineWeedMeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A11C1D0B01B5A5D835E80DF6 /* Pods-FineWeedMeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FineWeedMeUITests.release.xcconfig"; path = "Target Support Files/Pods-FineWeedMeUITests/Pods-FineWeedMeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C25C01379AFC5739B0AFE8B2 /* Pods-FineWeedMeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FineWeedMeTests.release.xcconfig"; path = "Target Support Files/Pods-FineWeedMeTests/Pods-FineWeedMeTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		117BFB02232577E900BE7750 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A6F5E277AD20CBC689AD165 /* Pods_FineWeedMe.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		117BFB19232577EA00BE7750 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21C17E5B90C00311F18F698B /* Pods_FineWeedMeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		117BFB24232577EA00BE7750 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE25505217843652C25404F7 /* Pods_FineWeedMeUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		117BFAFC232577E900BE7750 = {
+			isa = PBXGroup;
+			children = (
+				117BFB07232577E900BE7750 /* FineWeedMe */,
+				117BFB1F232577EA00BE7750 /* FineWeedMeTests */,
+				117BFB2A232577EA00BE7750 /* FineWeedMeUITests */,
+				117BFB06232577E900BE7750 /* Products */,
+				548293C4916240EC2BB4722D /* Pods */,
+				2819C39442C0348AFD65A423 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		117BFB06232577E900BE7750 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				117BFB05232577E900BE7750 /* FineWeedMe.app */,
+				117BFB1C232577EA00BE7750 /* FineWeedMeTests.xctest */,
+				117BFB27232577EA00BE7750 /* FineWeedMeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		117BFB07232577E900BE7750 /* FineWeedMe */ = {
+			isa = PBXGroup;
+			children = (
+				117BFB51232580C900BE7750 /* GoogleService-Info.plist */,
+				117BFB08232577E900BE7750 /* AppDelegate.swift */,
+				117BFB3E2325781400BE7750 /* SignInViewController+UI.swift */,
+				117BFB422325781400BE7750 /* SignUpViewController.swift */,
+				117BFB3C2325781400BE7750 /* SignUpViewController+UI.swift */,
+				117BFB3F2325781400BE7750 /* TestViewController.swift */,
+				117BFB402325781400BE7750 /* ForgotPasswordViewController.swift */,
+				117BFB392325781300BE7750 /* ForgotPasswordViewController+UI.swift */,
+				117BFB432325781500BE7750 /* LaunchScreen.storyboard */,
+				117BFB3A2325781300BE7750 /* SignInViewController.swift */,
+				117BFB3B2325781300BE7750 /* ViewController.swift */,
+				117BFB3D2325781400BE7750 /* Welcome.storyboard */,
+				117BFB12232577EA00BE7750 /* Assets.xcassets */,
+				117BFB14232577EA00BE7750 /* LaunchScreen.storyboard */,
+				117BFB17232577EA00BE7750 /* Info.plist */,
+				117BFB0F232577E900BE7750 /* FineWeedMe.xcdatamodeld */,
+			);
+			path = FineWeedMe;
+			sourceTree = "<group>";
+		};
+		117BFB1F232577EA00BE7750 /* FineWeedMeTests */ = {
+			isa = PBXGroup;
+			children = (
+				117BFB20232577EA00BE7750 /* FineWeedMeTests.swift */,
+				117BFB22232577EA00BE7750 /* Info.plist */,
+			);
+			path = FineWeedMeTests;
+			sourceTree = "<group>";
+		};
+		117BFB2A232577EA00BE7750 /* FineWeedMeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				117BFB2B232577EA00BE7750 /* FineWeedMeUITests.swift */,
+				117BFB2D232577EA00BE7750 /* Info.plist */,
+			);
+			path = FineWeedMeUITests;
+			sourceTree = "<group>";
+		};
+		2819C39442C0348AFD65A423 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1ADD3EC7EFF033EE362B0A86 /* Pods_FineWeedMe.framework */,
+				245DC86AA0A2C69EC91345CD /* Pods_FineWeedMeTests.framework */,
+				9BFC4ADF3B007E5405F27F2D /* Pods_FineWeedMeUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		548293C4916240EC2BB4722D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				97BCCC31AC47755B71C6026B /* Pods-FineWeedMe.debug.xcconfig */,
+				4F03E361598B058B8DFE3DD9 /* Pods-FineWeedMe.release.xcconfig */,
+				6E26620FBA3E5C1FBFF89FEE /* Pods-FineWeedMeTests.debug.xcconfig */,
+				C25C01379AFC5739B0AFE8B2 /* Pods-FineWeedMeTests.release.xcconfig */,
+				5091C5AD704B48456448BAB7 /* Pods-FineWeedMeUITests.debug.xcconfig */,
+				A11C1D0B01B5A5D835E80DF6 /* Pods-FineWeedMeUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		117BFB04232577E900BE7750 /* FineWeedMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 117BFB30232577EA00BE7750 /* Build configuration list for PBXNativeTarget "FineWeedMe" */;
+			buildPhases = (
+				1A401034018B6E54389674A7 /* [CP] Check Pods Manifest.lock */,
+				117BFB01232577E900BE7750 /* Sources */,
+				117BFB02232577E900BE7750 /* Frameworks */,
+				117BFB03232577E900BE7750 /* Resources */,
+				027C65B1EC09D762406F5BBA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FineWeedMe;
+			productName = FineWeedMe;
+			productReference = 117BFB05232577E900BE7750 /* FineWeedMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		117BFB1B232577EA00BE7750 /* FineWeedMeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 117BFB33232577EA00BE7750 /* Build configuration list for PBXNativeTarget "FineWeedMeTests" */;
+			buildPhases = (
+				E2CA004BE7F1C55F58808034 /* [CP] Check Pods Manifest.lock */,
+				117BFB18232577EA00BE7750 /* Sources */,
+				117BFB19232577EA00BE7750 /* Frameworks */,
+				117BFB1A232577EA00BE7750 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				117BFB1E232577EA00BE7750 /* PBXTargetDependency */,
+			);
+			name = FineWeedMeTests;
+			productName = FineWeedMeTests;
+			productReference = 117BFB1C232577EA00BE7750 /* FineWeedMeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		117BFB26232577EA00BE7750 /* FineWeedMeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 117BFB36232577EA00BE7750 /* Build configuration list for PBXNativeTarget "FineWeedMeUITests" */;
+			buildPhases = (
+				13335E1A1CCCD1E283E3C42D /* [CP] Check Pods Manifest.lock */,
+				117BFB23232577EA00BE7750 /* Sources */,
+				117BFB24232577EA00BE7750 /* Frameworks */,
+				117BFB25232577EA00BE7750 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				117BFB29232577EA00BE7750 /* PBXTargetDependency */,
+			);
+			name = FineWeedMeUITests;
+			productName = FineWeedMeUITests;
+			productReference = 117BFB27232577EA00BE7750 /* FineWeedMeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		117BFAFD232577E900BE7750 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Dustin yang";
+				TargetAttributes = {
+					117BFB04232577E900BE7750 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					117BFB1B232577EA00BE7750 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 117BFB04232577E900BE7750;
+					};
+					117BFB26232577EA00BE7750 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 117BFB04232577E900BE7750;
+					};
+				};
+			};
+			buildConfigurationList = 117BFB00232577E900BE7750 /* Build configuration list for PBXProject "FineWeedMe" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 117BFAFC232577E900BE7750;
+			productRefGroup = 117BFB06232577E900BE7750 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				117BFB04232577E900BE7750 /* FineWeedMe */,
+				117BFB1B232577EA00BE7750 /* FineWeedMeTests */,
+				117BFB26232577EA00BE7750 /* FineWeedMeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		117BFB03232577E900BE7750 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				117BFB16232577EA00BE7750 /* LaunchScreen.storyboard in Resources */,
+				117BFB492325781500BE7750 /* Welcome.storyboard in Resources */,
+				117BFB52232580C900BE7750 /* GoogleService-Info.plist in Resources */,
+				117BFB13232577EA00BE7750 /* Assets.xcassets in Resources */,
+				117BFB4F2325781500BE7750 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		117BFB1A232577EA00BE7750 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		117BFB25232577EA00BE7750 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		027C65B1EC09D762406F5BBA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FineWeedMe/Pods-FineWeedMe-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FineWeedMe/Pods-FineWeedMe-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FineWeedMe/Pods-FineWeedMe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		13335E1A1CCCD1E283E3C42D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FineWeedMeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1A401034018B6E54389674A7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FineWeedMe-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2CA004BE7F1C55F58808034 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FineWeedMeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		117BFB01232577E900BE7750 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				117BFB4A2325781500BE7750 /* SignInViewController+UI.swift in Sources */,
+				117BFB472325781500BE7750 /* ViewController.swift in Sources */,
+				117BFB452325781500BE7750 /* ForgotPasswordViewController+UI.swift in Sources */,
+				117BFB482325781500BE7750 /* SignUpViewController+UI.swift in Sources */,
+				117BFB4E2325781500BE7750 /* SignUpViewController.swift in Sources */,
+				117BFB09232577E900BE7750 /* AppDelegate.swift in Sources */,
+				117BFB4C2325781500BE7750 /* ForgotPasswordViewController.swift in Sources */,
+				117BFB462325781500BE7750 /* SignInViewController.swift in Sources */,
+				117BFB4B2325781500BE7750 /* TestViewController.swift in Sources */,
+				117BFB11232577E900BE7750 /* FineWeedMe.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		117BFB18232577EA00BE7750 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				117BFB21232577EA00BE7750 /* FineWeedMeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		117BFB23232577EA00BE7750 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				117BFB2C232577EA00BE7750 /* FineWeedMeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		117BFB1E232577EA00BE7750 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 117BFB04232577E900BE7750 /* FineWeedMe */;
+			targetProxy = 117BFB1D232577EA00BE7750 /* PBXContainerItemProxy */;
+		};
+		117BFB29232577EA00BE7750 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 117BFB04232577E900BE7750 /* FineWeedMe */;
+			targetProxy = 117BFB28232577EA00BE7750 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		117BFB14232577EA00BE7750 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				117BFB15232577EA00BE7750 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		117BFB2E232577EA00BE7750 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		117BFB2F232577EA00BE7750 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		117BFB31232577EA00BE7750 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97BCCC31AC47755B71C6026B /* Pods-FineWeedMe.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CSE9343A58;
+				INFOPLIST_FILE = FineWeedMe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = frontyard.FineWeedMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		117BFB32232577EA00BE7750 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F03E361598B058B8DFE3DD9 /* Pods-FineWeedMe.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CSE9343A58;
+				INFOPLIST_FILE = FineWeedMe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = frontyard.FineWeedMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		117BFB34232577EA00BE7750 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E26620FBA3E5C1FBFF89FEE /* Pods-FineWeedMeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CSE9343A58;
+				INFOPLIST_FILE = FineWeedMeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = frontyard.FineWeedMeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FineWeedMe.app/FineWeedMe";
+			};
+			name = Debug;
+		};
+		117BFB35232577EA00BE7750 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C25C01379AFC5739B0AFE8B2 /* Pods-FineWeedMeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CSE9343A58;
+				INFOPLIST_FILE = FineWeedMeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = frontyard.FineWeedMeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FineWeedMe.app/FineWeedMe";
+			};
+			name = Release;
+		};
+		117BFB37232577EA00BE7750 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5091C5AD704B48456448BAB7 /* Pods-FineWeedMeUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CSE9343A58;
+				INFOPLIST_FILE = FineWeedMeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = frontyard.FineWeedMeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FineWeedMe;
+			};
+			name = Debug;
+		};
+		117BFB38232577EA00BE7750 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A11C1D0B01B5A5D835E80DF6 /* Pods-FineWeedMeUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CSE9343A58;
+				INFOPLIST_FILE = FineWeedMeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = frontyard.FineWeedMeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FineWeedMe;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		117BFB00232577E900BE7750 /* Build configuration list for PBXProject "FineWeedMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				117BFB2E232577EA00BE7750 /* Debug */,
+				117BFB2F232577EA00BE7750 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		117BFB30232577EA00BE7750 /* Build configuration list for PBXNativeTarget "FineWeedMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				117BFB31232577EA00BE7750 /* Debug */,
+				117BFB32232577EA00BE7750 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		117BFB33232577EA00BE7750 /* Build configuration list for PBXNativeTarget "FineWeedMeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				117BFB34232577EA00BE7750 /* Debug */,
+				117BFB35232577EA00BE7750 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		117BFB36232577EA00BE7750 /* Build configuration list for PBXNativeTarget "FineWeedMeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				117BFB37232577EA00BE7750 /* Debug */,
+				117BFB38232577EA00BE7750 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		117BFB0F232577E900BE7750 /* FineWeedMe.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				117BFB10232577E900BE7750 /* FineWeedMe.xcdatamodel */,
+			);
+			currentVersion = 117BFB10232577E900BE7750 /* FineWeedMe.xcdatamodel */;
+			path = FineWeedMe.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 117BFAFD232577E900BE7750 /* Project object */;
+}

@@ -13,7 +13,7 @@
         <!--View Controller-->
         <scene sceneID="apu-Rv-g7W">
             <objects>
-                <viewController id="8OD-qL-WwZ" customClass="ViewController" customModule="DatingApp" sceneMemberID="viewController">
+                <viewController id="8OD-qL-WwZ" customClass="ViewController" customModule="FineWeedMe" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xhN-NX-pae">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -121,7 +121,7 @@
         <!--Sign Up View Controller-->
         <scene sceneID="1LU-sB-DMe">
             <objects>
-                <viewController id="wQ7-hN-gZT" customClass="SignUpViewController" customModule="DatingApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="wQ7-hN-gZT" customClass="SignUpViewController" customModule="FineWeedMe" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Zsn-v5-dZF">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -216,6 +216,9 @@
                                     <constraint firstAttribute="height" constant="50" id="kEV-ac-YbT"/>
                                 </constraints>
                                 <state key="normal" title="Sign Up"/>
+                                <connections>
+                                    <action selector="signUpAction:" destination="wQ7-hN-gZT" eventType="touchUpInside" id="XsT-n7-icw"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h08-wb-Umq">
                                 <rect key="frame" x="20" y="587" width="374" height="50"/>
@@ -276,7 +279,7 @@
         <!--Sign In View Controller-->
         <scene sceneID="poy-hz-uxQ">
             <objects>
-                <viewController id="2g4-WR-ibx" customClass="SignInViewController" customModule="DatingApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="2g4-WR-ibx" customClass="SignInViewController" customModule="FineWeedMe" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="UbR-c5-pq1">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -400,7 +403,7 @@
         <!--Forgot Password View Controller-->
         <scene sceneID="Msd-6g-3GU">
             <objects>
-                <viewController id="gyA-QW-Dmr" customClass="ForgotPasswordViewController" customModule="DatingApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="gyA-QW-Dmr" customClass="ForgotPasswordViewController" customModule="FineWeedMe" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="VHw-Mh-BPe">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

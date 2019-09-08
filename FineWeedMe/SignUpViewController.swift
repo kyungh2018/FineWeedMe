@@ -7,6 +7,9 @@
 //
 
 import UIKit
+import FirebaseAuth
+import FirebaseDatabase
+import FirebaseStorage
 
 class SignUpViewController: UIViewController {
     
@@ -27,7 +30,7 @@ class SignUpViewController: UIViewController {
     
     @IBOutlet weak var closeButton: UIButton!
     
-    
+    var image : UIImage? = nil
     override func viewDidLoad() {
         super.viewDidLoad()
         setupUI()
@@ -49,5 +52,58 @@ class SignUpViewController: UIViewController {
     }
     
     
-    
+    @IBAction func signUpAction(_ sender: Any) {
+        
+        guard let imageSelected = self.image else {
+            print("Avatar is nil")
+            return
+        }
+        
+        guard let imageData = imageSelected.jpegData(compressionQuality: 0.4) else {
+            return
+        }
+        
+        Auth.auth().createUser(withEmail: "test5@gmail.com", password: "123456") { (authDataResult, error) in
+            if error != nil {
+                print(error!.localizedDescription)
+                return
+            }
+            if let authData = authDataResult {
+                print(authData.user.email)
+                var dict: Dictionary<String, Any> =  [
+                    "uid": authData.user.uid,
+                    "email": authData.user.email!,
+                    "profileImageUrl": "",
+                    "status": "motha fucker"
+                ]
+                
+                let storageRef = Storage.storage().reference(forURL: "gs://fineweedme.appspot.com")
+                let storageProfileRef = storageRef.child("profile").child(authData.user.uid)
+                
+                let metadata = StorageMetadata()
+                metadata.contentType = "image/jpg"
+                storageProfileRef.putData(imageData, metadata: metadata, completion: { (storageMetaData, error) in
+                    if error != nil {
+                        print(error?.localizedDescription)
+                        return
+                    }
+                    
+                    storageProfileRef.downloadURL(completion: { (url, error) in
+                        if let metaImageUrl = url?.absoluteString {
+                            dict["profileImageUrl"] = metaImageUrl
+                            Database.database().reference().child("users")
+                                .child(authData.user.uid).updateChildValues(dict, withCompletionBlock: { (error, ref) in
+                                    if error == nil {
+                                        print("Done")
+                                    }
+                                })
+                        }
+                    })
+                })
+            }
+        }
+      
+ 
+        
+    }
 }

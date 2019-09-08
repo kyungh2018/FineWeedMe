@@ -1,0 +1,6 @@
+framework module Pods_FineWeedMe {
+  umbrella header "Pods-FineWeedMe-umbrella.h"
+
+  export *
+  module * { export * }
+}
